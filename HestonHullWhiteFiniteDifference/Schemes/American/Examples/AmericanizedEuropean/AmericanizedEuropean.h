@@ -1,0 +1,2 @@
+// TODO: This code is written in a way that is very general and always correct. There are speed-ups available if you are working with a specific type of 
+// option such as vanilla calls or vanilla puts. Those speed-ups are not implemented as of 9/2/21.
