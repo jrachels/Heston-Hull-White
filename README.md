@@ -80,17 +80,19 @@ Access the result with the member function ```MeanOutcomes()```.
 
 The folder
 
-Heston-Hull-White/HestonHullWhiteFiniteDifference/
+> Heston-Hull-White/HestonHullWhiteFiniteDifference/
 
-contains an implementation of several finite difference algorithms for pricing European options under the HHW model. These are the Douglas, Craig-Sneyd, Modified Craig-Sneyd, and Hundsdorfer ```Scheme```s.
+contains an implementation of several finite difference algorithms for pricing European options under the HHW model. These are the Douglas, Craig-Sneyd, Modified Craig-Sneyd, and Hundsdorfer ```Scheme```s. The paper on which these methods are based is give here:
 
-https://arxiv.org/pdf/1111.4087.pdf
+https://arxiv.org/pdf/1111.4087.pdf .
 
-examples of how to use these methods can be found in 
+Examples of how to use these methods can be found in 
 
 > Heston-Hull-White/HestonHullWhiteTests/FiniteDifferenceTests/Schemes/European/
 
 Recommended input parameters for instantiating ```heston_hull_white::finite_difference::examples::ADIDiscretizationInputs``` are provided at the top of page 5 of the linked ADI paper.
+
+As stated previously, I provide no method for extrapolating prices between grid points. You will need to decide how you want to accomplish this. 
 
 ## Testing
 
