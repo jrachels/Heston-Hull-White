@@ -43,7 +43,7 @@ Define classes representing the option types you want to price. Examples can be 
 
 > Heston-Hull-White/HestonHullWhiteMonteCarlo/OptionTypes/Examples/
 
-These classes require a member function ```Price(const StateType& state) const;``` that should return a ```double```, an ```std::array<double>```, or an ```std::vector<double>``` representing the price or prices of the derivative at the given state.
+These classes require a member function ```Price(const StateType& state) const;``` that should return a ```double```, an ```std::array<double>```, or an ```std::vector<double>``` representing the price(s) of the derivative(s) at the given state.
 
 Step 3: 
 
