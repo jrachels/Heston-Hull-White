@@ -82,7 +82,7 @@ The folder
 
 > Heston-Hull-White/HestonHullWhiteFiniteDifference/
 
-contains an implementation of several finite difference algorithms for pricing European options under the HHW model. These are the Douglas, Craig-Sneyd, Modified Craig-Sneyd, and Hundsdorfer ```Scheme```s. The paper on which these methods are based is give here:
+contains an implementation of several finite difference algorithms for pricing European options under the HHW model. These are the Douglas, Craig-Sneyd, Modified Craig-Sneyd, and Hundsdorfer ```Schemes```. The paper on which these methods are based is given here:
 
 https://arxiv.org/pdf/1111.4087.pdf .
 
@@ -104,7 +104,7 @@ You can run these tests with
 
 > Heston-Hull-White/x64/Debug/HestonHullWhiteTests.exe
 
-These tests take about 10 minutes to run on my personal computer.
+These tests take about 10 minutes on my personal computer.
 
 
 ## References
