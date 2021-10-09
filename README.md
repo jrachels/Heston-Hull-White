@@ -1,5 +1,5 @@
 # Heston-Hull-White
-This repository contains three stand-alone projects implementing three different algorithms for pricing options under the Heston-Hull-White model. This code was written as a private exercise in numerical methods for option pricing. Some sections exist only to test design concepts and language features but otherwise provide only nominal reductions in computation time and memory usage. Some features you may expect to be present are excluded. For example, the finite difference class provides no method of extrapolating prices between grid points.
+This repository contains three stand-alone projects implementing three different algorithms for pricing options under the Heston-Hull-White model. This code was written as a private exercise in numerical methods for option pricing. Some sections exist only to test design concepts and language features but otherwise provide only nominal reductions in computation time and memory usage. Some features you may expect to be present are excluded. For example, the finite difference class provides no method for extrapolating prices between grid points.
 
 ## FFT
 
