@@ -65,7 +65,7 @@ Instantiate a ```heston_hull_white::monte_carlo::PathDependents``` with the path
 
 Step 7: 
 
-Construct a ```heston_hull_white::monte_carlo::european::MultipleDerivativesSimulator``` or similar that can run individual trials to price the options.
+Construct a ```heston_hull_white::monte_carlo::european::MultipleDerivativesSimulator``` or similar that can sample option prices.
 
 Step 8: 
 
